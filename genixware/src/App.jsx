@@ -1,24 +1,19 @@
-import React from 'react';
-import Header from './components/Header';
+import Navbar from './components/Navbar';
 import HeroSection from './components/HeroSection';
 import ServicesSection from './components/ServicesSection';
-import AboutUs from './components/AboutUs';
-import ContactForm from './components/ContactForm';
-import ClientsSection from './components/ClientsSection'; // Nueva sección
+import ContactSection from './components/ContactSection';
 import Footer from './components/Footer';
 
-const App = () => {
+function App() {
   return (
     <div>
-      <Header />
+      <Navbar />
       <HeroSection />
       <ServicesSection />
-      <ClientsSection />  {/* Agregamos la nueva sección de clientes */}
-      <AboutUs />
-      <ContactForm />
+      <ContactSection />
       <Footer />
     </div>
   );
-};
+}
 
 export default App;

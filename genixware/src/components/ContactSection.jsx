@@ -1,4 +1,7 @@
 import React, { useState } from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faFacebook, faInstagram } from '@fortawesome/free-brands-svg-icons';
+import { faWhatsapp } from '@fortawesome/free-brands-svg-icons';
 
 const ContactForm = () => {
   const [formData, setFormData] = useState({ name: '', email: '', message: '' });
@@ -16,6 +19,7 @@ const ContactForm = () => {
   return (
     <section id="contact" className="py-16 bg-gray-100 text-purple-800">
       <h2 className="text-3xl font-bold text-center">Contacto</h2>
+      <p className="mt-4 text-lg text-gray-600 text-center">Conoce más sobre nuestras soluciones personalizadas.</p>
       <form className="max-w-lg mx-auto mt-8" onSubmit={handleSubmit}>
         <input
           type="text"
@@ -44,6 +48,23 @@ const ContactForm = () => {
           Enviar
         </button>
       </form>
+      <div className="mt-12 text-center">
+        <h3 className="text-2xl font-bold">Síguenos en nuestras redes sociales</h3>
+        <div className="flex justify-center mt-4 space-x-6">
+          <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer" className="flex items-center">
+            <FontAwesomeIcon icon={faFacebook} className="text-purple-600 text-3xl hover:text-purple-500 mr-2" />
+            <span>Genixware Guatemala</span>
+          </a>
+          <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer" className="flex items-center">
+            <FontAwesomeIcon icon={faInstagram} className="text-purple-600 text-3xl hover:text-purple-500 mr-2" />
+            <span>@Genixware.gt</span>
+          </a>
+          <a href="https://wa.me/1234567890" target="_blank" rel="noopener noreferrer" className="flex items-center">
+            <FontAwesomeIcon icon={faWhatsapp} className="text-purple-600 text-3xl hover:text-purple-500 mr-2" />
+            <span>+502 5590-8153</span>
+          </a>
+        </div>
+      </div>
     </section>
   );
 };
