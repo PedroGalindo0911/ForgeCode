@@ -23,7 +23,7 @@ const HeroSection = () => {
     >
       {/* Fondo con blur */}
       <div
-        className="absolute inset-0 bg-cover bg-center md:bg-fixed"
+        className="absolute inset-0 bg-center bg-no-repeat md:bg-cover bg-fixed"
         style={{
           backgroundImage: `url(${backgroundImage})`,
           filter: "blur(2px)",

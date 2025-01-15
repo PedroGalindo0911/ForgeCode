@@ -2,12 +2,10 @@ const Navbar = () => {
   return (
     <nav className="bg-[#73081A] text-white p-4 flex justify-between items-center sticky top-0 z-50">
       {/* Logo y título */}
-      <h1 className="text-2xl font-bold tracking-tight">
-        ForgeCode
-      </h1>
+      <h1 className="text-2xl font-bold tracking-tight">ForgeCode</h1>
 
       {/* Menú */}
-      <ul className="flex space-x-6">
+      <ul className="hidden md:flex space-x-6">
         <li>
           <a
             href="#hero"
