@@ -21,9 +21,9 @@ const HeroSection = () => {
       id="hero"
       className="relative text-center py-64 flex items-center justify-center"
     >
-      {/* Fondo con blur */}
+      {/* Fondo con bg-cover */}
       <div
-        className="absolute inset-0 bg-center bg-no-repeat md:bg-cover bg-contain"
+        className="absolute inset-0 bg-center bg-no-repeat bg-cover"
         style={{
           backgroundImage: `url(${backgroundImage})`,
           filter: "blur(2px)",
