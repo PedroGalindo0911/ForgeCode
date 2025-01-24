@@ -12,7 +12,7 @@ const StorytellingSection = () => {
     <section id="storytelling" className="py-20 bg-gray-50">
       <div className="max-w-6xl mx-auto px-4">
         <h2
-          className="text-4xl font-bold text-[#73081A] text-center mb-6"
+          className="text-4xl font-bold text-[#EB6239] text-center mb-6"
           data-aos="fade-up"
         >
           Cómo Ayudamos a Luxury and Gloss
@@ -39,7 +39,7 @@ const StorytellingSection = () => {
 
           {/* Historia */}
           <div data-aos="fade-left">
-            <h3 className="text-2xl font-semibold text-[#EB6239] mb-4">
+            <h3 className="text-2xl font-semibold text-[#73081A] mb-4">
               El Reto
             </h3>
             <p className="text-gray-700 mb-6">
@@ -50,7 +50,7 @@ const StorytellingSection = () => {
               de autos.
             </p>
 
-            <h3 className="text-2xl font-semibold text-[#EB6239] mb-4">
+            <h3 className="text-2xl font-semibold text-[#73081A] mb-4">
               Nuestra Solución
             </h3>
             <p className="text-gray-700 mb-6">
@@ -60,7 +60,7 @@ const StorytellingSection = () => {
               implementamos elementos visuales que reflejan su profesionalismo.
             </p>
 
-            <h3 className="text-2xl font-semibold text-[#EB6239] mb-4">
+            <h3 className="text-2xl font-semibold text-[#73081A] mb-4">
               El Resultado
             </h3>
             <p className="text-gray-700">
